@@ -33,3 +33,7 @@
     color: white;
     background-color: rgb(254, 119, 67);
 }
+
+.enter-btn :hover{
+    color: rgb(6, 4, 31);
+}
