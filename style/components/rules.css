@@ -37,6 +37,14 @@
     font-weight: 300;
 }
 
+/* For notes */
+.rule-box-note {
+    border: 1px solid gray;
+    padding: 2vw;
+    margin-bottom: 10px;
+    background-color: rgba(253, 221, 183, 0.863);
+}
+
 /*for highlighting the text*/
 ::selection {
     background: var(--hover_color);/* Highlight background color */
