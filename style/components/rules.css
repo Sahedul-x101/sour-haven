@@ -37,6 +37,10 @@
     font-weight: 300;
 }
 
+.rule-space {
+    margin-bottom: 2vw;
+}
+
 /* For notes */
 .rule-box-note {
     border: 1px solid gray;
