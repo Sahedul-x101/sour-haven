@@ -10,6 +10,21 @@
     font-weight: 700;
 }
 
+@font-face {
+    font-family: "Miskan";
+    src: url("../../assets/fonts/miskan/Miskan.ttf");
+}
+
+@font-face {
+    font-family: "IM Fell English";
+    src: url(../../assets/fonts/IM_Fell_English/IMFellEnglish-Regular.ttf);
+    src: url(../../assets/fonts/IM_Fell_English/IMFellEnglish-Italic.ttf);
+}
+
 .space-mono {
     font-family: "Space Mono", monospace;
+}
+
+.miskan{
+    font-family: "Miskan";
 }
