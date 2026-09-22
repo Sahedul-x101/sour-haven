@@ -76,3 +76,77 @@
 .space{
     margin-bottom: 2vw;
 }
+
+.tag-line{
+    font-size: clamp(2rem, 4vw, 4rem);
+    font-family: "IM Fell English";
+    text-decoration: underline;
+}
+
+.grid-list{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    background-color: #6C3BFF;
+}
+
+.list-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px dotted var(--dark_blue_gray);
+    background-color: #FFFFFF;
+}
+
+.list-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: clamp(1rem, 2vw, 1.5rem)
+}
+
+.list-2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 1px dotted var(--dark_blue_gray);
+    background-color:#FFFFFF;
+}
+
+.list-3{
+    grid-row-start: 1;
+    grid-row-end: 6;
+    border: 1px dotted var(--dark_blue_gray);
+    background-color: #FFFFFF;
+}
+
+.list-4{
+    border: 1px dotted var(--dark_blue_gray);
+}
+
+.list-5{
+    border: 1px dotted var(--dark_blue_gray);
+}
+
+.list-6{
+    border: 1px dotted var(--dark_blue_gray);
+}
+
+.list-7{
+    border: 1px dotted var(--dark_blue_gray);
+}
+
+.list-8{
+    border: 1px dotted var(--dark_blue_gray);
+}
+
+.edu-list{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-style: italic;
+    color: rgb(55, 0, 255);
+    margin-left: 20px;
+    list-style-type: disc;
+}

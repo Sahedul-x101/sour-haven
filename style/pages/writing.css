@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.notes{
+    font-family: "IM Fell English";
+    text-align: center;
+    border: 1px dotted black;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.notes:hover{
+    color: var(--hover_color);
+}
+
+.articles{
+    font-family: "IM Fell English";
+    text-align: center;
+    border: 1px dotted black;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.articles:hover{
+    color: var(--hover_color);
+}
+
+.logs{
+    font-family: "IM Fell English";
+    text-align: center;
+    border: 1px dotted black;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.logs:hover{
+    color: var(--hover_color);
+}
