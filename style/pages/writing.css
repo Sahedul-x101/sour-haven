@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
 
@@ -40,5 +40,18 @@
 }
 
 .logs:hover{
+    color: var(--hover_color);
+}
+
+.doc{
+    font-family: "IM Fell English";
+    text-align: center;
+    border: 1px dotted black;
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.doc:hover{
     color: var(--hover_color);
 }
