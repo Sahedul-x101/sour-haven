@@ -1,0 +1,7 @@
+.mid{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bittersweet)
+}
